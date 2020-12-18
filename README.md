@@ -1,7 +1,7 @@
 # Github-Quick-Commands-List
 My own Github-Quick-Commands-List for those who cant remember the Github commands at the last moment :) .
 
-
+#### Cloning a Repo
 | Command | Description |
 | ------- | ----------- |
 |`git clone URL`| Clone *remote* repo/fork to local machine|
