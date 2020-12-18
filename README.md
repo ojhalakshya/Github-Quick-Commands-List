@@ -25,11 +25,25 @@ My own Github-Quick-Commands-List for those who cant remember the Github command
 |`git branch -a`| Lists all branches Local+*remote*|
 |`git branch [NEW_NAME]`| Creates **new** branch in the repository with name = NEW_NAME |
 |`git branch -d [BRANCH_NAME]`| **Deletes** the specified branch locally.|
+|`git branch -m [old branch name] [new branch name]`|Renames a local branch name.|
 |`git checkout [NAME]`| Check out from one branch to another.|
 |`git checkout -b [NEW_NAME]`| Create a **new** branch and also switches to it.|
-|`git merge [BRANCH_NAME]`|To merge a different branch into your active branch:|
 |`git *remote* add [variable name] [*remote* Server Link]`<br> git *remote* add origin https://github.com/ojhalakshya/Github-Quick-Commands-List.git|This command is used to connect your local repository to the *remote* server.|
 
+#### GIT MERGE
+| Command | Description |
+| ------- | ----------- |
+|`git merge [BRANCH_NAME]`|To merge a different branch into your active branch.|
+|`git merge [source branch] [target branch]`|Merge a branch into target branch|
+
+
+#### REWRITING HISTORY
+
+| Command | Description |
+| ------- | ----------- |
+|`git commit --amend`|Modify the Head commit or the most *recent* commit. Allows to combine currently staged changes with the most recent commit.|
+|`git commit --amend -m "NEW_MESSAGE"`|Modify the most *recent* commit message.|
+|`git rebase -i HEAD~3`<br>pick f7f3f6d commit no 1<br>edit 310154e commit no 2<br>pick a5f4a0d commit no 3|Show commit in the range HEAD ~ 3.<br> To **EDIT** any commit replace pick -> edit, on which the terminal will stop to allow any ammends on it. Afterwards use <br>`git rebase --continue` to allow all other commits.<br> At last use `git push --force`.|
 
 #### GIT PUSH
 
@@ -46,9 +60,10 @@ My own Github-Quick-Commands-List for those who cant remember the Github command
 | Command | Description |
 | ------- | ----------- |
 |`git pull`|Fetch and merge changes on the *remote* server to your working directory.|
-|`git pull [Repository Link]`|This command fetches and merges changes on the *remote* server to your working directory.|
+|`git pull origin [Repository Link]`|Pulls changes from remote repo to `[variable name] = origin`|
 
 
+#### GIT FETCH
 | Command | Description |
 | ------- | ----------- |
 |`git fetch <*remote*>`|Fetch all of the branches from the repository. This also downloads all of the required commits and files from the other repository.|
