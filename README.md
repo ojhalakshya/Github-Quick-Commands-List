@@ -6,7 +6,6 @@ My own Github-Quick-Commands-List for those who cant remember the Github command
 | ------- | ----------- |
 |`git clone URL`| Clone *remote* repo/fork to local machine|
 
-
 ### Version Control Commands:
 | Command | Description |
 | ------- | ----------- |
