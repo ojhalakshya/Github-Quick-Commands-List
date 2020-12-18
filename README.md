@@ -43,7 +43,7 @@ My own Github-Quick-Commands-List for those who cant remember the Github command
 | ------- | ----------- |
 |`git commit --amend`|Modify the Head commit or the most *recent* commit. Allows to combine currently staged changes with the most recent commit.|
 |`git commit --amend -m "NEW_MESSAGE"`|Modify the most *recent* commit message.|
-|`git rebase -i HEAD~3`<br>pick f7f3f6d commit no 1<br>edit 310154e commit no 2<br>pick a5f4a0d commit no 3|Show commit in the range HEAD ~ 3.<br> To **EDIT** any commit replace pick -> edit, on which the terminal will stop to allow any ammends on it. <br>Afterwards use `git rebase --continue` to allow all other commits.<br> At last use `git push --force`.|
+|`git rebase -i HEAD~3`<br>pick f7f3f6d commit no 1<br>edit 310154e commit no 2<br>pick a5f4a0d commit no 3|Show commit in the range HEAD ~ 3.<br> To **EDIT** any commit replace pick -> edit, on which the terminal will stop to allow any ammends on it. <br>Afterwards use `git rebase --continue` to allow all other commits.<br> At last use `git push --force`. [Re-Writing History](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History)|
 
 #### GIT PUSH
 
