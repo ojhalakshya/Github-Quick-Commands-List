@@ -54,7 +54,7 @@ My own Github-Quick-Commands-List for those who cant remember the Github command
 |`git push [variable name] master`|Pushes the changes of the master branch to repository saved by the [variable name]|
 |`git push [variable name] [branch]`|Pushes the changes of the specified branch to repository saved by the [variable name]|
 |`git push –all [variable name]`|Pushes all the branches to the *remote* repository|
-|`git push <*remote*_name> --**Delete** <branch_name>` <br>OR<br>`git push [variable name] :[branch name]`|These commands **Delete** a branch on your *remote* repository.|
+|`git push <remote_name> --delete <branch_name>` <br>OR<br>`git push [variable name] :[branch name]`|These commands **Delete** a branch on your *remote* repository.|
 
 #### GIT PULL
 
