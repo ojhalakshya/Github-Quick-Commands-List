@@ -50,7 +50,7 @@ My own Github-Quick-Commands-List for those who cant remember the Github command
 
 | Command | Description |
 | ------- | ----------- |
-|`git push -u origin feature_branch_name`|Push **newly** created feature branch to `[variable name] = origin`|
+|`git push -u origin feature_branch_name`<br> `git push --set-upstream origin feature_branch_name`|Push **newly** created feature branch to `[variable name] = origin`|
 |`git push [variable name] master`|Pushes the changes of the master branch to repository saved by the [variable name]|
 |`git push [variable name] [branch]`|Pushes the changes of the specified branch to repository saved by the [variable name]|
 |`git push –all [variable name]`|Pushes all the branches to the *remote* repository|
