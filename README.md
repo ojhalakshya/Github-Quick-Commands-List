@@ -28,7 +28,7 @@ My own Github-Quick-Commands-List for those who cant remember the Github command
 |`git branch -m [old branch name] [new branch name]`|Renames a local branch name.|
 |`git checkout [NAME]`| Check out from one branch to another.|
 |`git checkout -b [NEW_NAME]`| Create a **new** branch and also switches to it.|
-|`git *remote* add [variable name] [*remote* Server Link]`<br> git *remote* add origin https://github.com/ojhalakshya/Github-Quick-Commands-List.git|This command is used to connect your local repository to the *remote* server.|
+|`git remote add [variable name] [remote Server Link]`<br> git remote add origin https://github.com/ojhalakshya/Github-Quick-Commands-List.git|This command is used to connect your local repository to the *remote* server.|
 
 #### GIT MERGE
 | Command | Description |
