@@ -70,3 +70,9 @@ My own Github-Quick-Commands-List for those who cant remember the Github command
 |`git fetch <*remote*> <branch>`|Same as the above command, but only fetch the specified branch.|
 |`git fetch --all`|A power move which fetches all registered *remote*s and their branches.|
 |`git fetch origin`<br>`git reset --hard origin/master`|Instead, to drop all your local changes and commits, fetch the latest history from the server and point your local master branch at it, do this.|
+
+
+#### Syncing Forked Repo with Original Repo
+1. `git fetch upstream` or other git fetch commands above.
+2. `git merge upstream/main`.
+3. `git push`.
