@@ -5,6 +5,7 @@ My own Github-Quick-Commands-List for those who cant remember the Github command
 | Command | Description |
 | ------- | ----------- |
 |`git clone URL`| Clone *remote* repo/fork to local machine|
+|`git remote add upstream URL`|Sets the upstream in your local machine to the Original Branch from which you forked.|
 
 ### Version Control Commands:
 | Command | Description |
