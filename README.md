@@ -73,6 +73,16 @@ My own Github-Quick-Commands-List for those who cant remember the Github command
 |`git fetch --all`|A power move which fetches all registered *remote*s and their branches.|
 |`git fetch origin`<br>`git reset --hard origin/master`|Instead, to drop all your local changes and commits, fetch the latest history from the server and point your local master branch at it, do this.|
 
+#### GIT STASH
+| Command | Description |
+| ------- | ----------- |
+|`git stash save "name_of_stash"`|Stash all changes with the name of stash.|
+|`git stash`| Stash all changes by default properties.|
+|`git stash list`| List all stashes.|
+|`git stash show`| Show all stashes.|
+|`git stash apply`|Apply stash changes on top of current commit.|
+|`git stash clear`| **Remove** all stashes **permanently**|
+
 
 #### Syncing Forked Repo with Original Repo
 1. `git fetch upstream` or other git fetch commands above.
