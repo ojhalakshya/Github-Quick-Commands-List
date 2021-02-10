@@ -76,5 +76,5 @@ My own Github-Quick-Commands-List for those who cant remember the Github command
 
 #### Syncing Forked Repo with Original Repo
 1. `git fetch upstream` or other git fetch commands above.
-2. `git merge upstream/main`.
+2. `git merge upstream/main`. -> works in any branch, command will always remain the same.
 3. `git push`.
